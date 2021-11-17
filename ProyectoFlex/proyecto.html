@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Instituto</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="contenedor_P">
+        <header>
+            <!-- Datos de Contacto + Redes Sociales + Iniciar Sesion-->
+            <div id="info_rel">
+                <span id="telefono">
+                    <p id="text"><i class="fas fa-phone fa-1x"></i> +34 956 243 128 </p>
+                </span>
+
+                <span>
+                    <p>
+                        <i class="fab fa-facebook-f fa-2x"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </p>
+
+                </span>
+                <span>
+                    <p id="text"><i class="fas fa-user-circle fa-1x"></i> Iniciar Sesion</p>
+
+                </span>
+            </div>
+            <!--MENU COMPLETO-->
+            <div id="menu-header">
+                <img class="logo" src="./assets/img/Inicio/logo_dh@2x.png" alt="Logo" />
+                <ul class="menu">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Ampa</a></li>
+                    <li><a href="">Claustro</a></li>
+                    <li><a href="">Centro</a></li>
+                </ul>
+            </div>
+            <!--CONTENEDOR VIDEO-->
+            <article>
+                <div id="caja">
+                    <div id="img-mac"><video autoplay controls muted src="assets/video/video.mp4"></video></div>
+                </div>
+
+            </article>
+
+
+        </header>
+
+        <br>
+        <hr />
+        <br>
+
+        <!--FORMULARIO CONTACTO-->
+        <section id="contactanos">
+            <article>
+                <form action="#" target="" method="get" name="formDatosPersonales">
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
+
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="1r Apellido" />
+
+                    <label for="email" />Email</label>
+                    <input type="email" name="email" id="email" placeholder="email" required />
+
+                    <label for="asunto">Asunto</label>
+                    <input type="text" name="asunto" id="asunto" placeholder="titular de la consulta" />
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" for="mensaje" placeholder="describe brevemente en menos de 300 carácteres"
+                        maxlength="300"></textarea>
+
+                    <input type="submit" name="enviar" value="enviar datos" />
+                </form>
+            </article>
+        </section>
+
+        <br>
+        <hr />
+        <br>
+        <!--CONTENEDOR PROFESOR-->
+        <section id="profesorado">
+            <article>
+                <h2>PROFESARADO DE COMPETENCIA Y CALIDAD</h2>
+
+                <div>
+                    <i class="fas fa-angle-double-left fa-2x"></i>
+                    <img src="./assets/img/Inicio/Elipse_32_fa@2x.png" alt="Profesor">
+                    <i class="fas fa-angle-double-right fa-2x"></i>
+                </div>
+            </article>
+        </section>
+        <!--PIE DE PAGINA -->
+        <footer>
+            <div class="contenedor">
+                <h3>Bienvenido al centro</h3>
+            </div>
+            <div class="contenedor">
+                <nav>
+                    <ul>
+                        <li>Inicio</li>
+                        <li>Ampa</li>
+                        <li>Claustro</li>
+                        <li>Centro</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="pie">
+                <img src="./assets/img/Inicio/GobiernoESP@2x.png">
+            </div>
+
+        </footer>
+
+</body>
+
+</html>
